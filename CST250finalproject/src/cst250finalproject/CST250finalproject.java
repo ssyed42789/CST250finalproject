@@ -70,7 +70,7 @@ public class CST250finalproject {
         
         
         // This step is an list of stocks from which to chose and, are performing well in the stock market
-        String[] shares = new String[] { "Jp Morgan Chase", "Walmart" , "Gamestop","Amc Entertainment","Shell" ,"Google", "Twitter", "Samsung", "Lenovo", "Intel", "Bitcoin", "Litecoin", "SunPower", "American Airlines", "Dave and Buster", "Hecla Mining", "Tilray", "Dogecoin", "Boeing", "Nikola", "Facebook", "British Petroleum", "Bank Of America", "Bitcoin Cash", "Moderna", "Pfizer", "United Airlines", "SouthWest Airlines", "Shell", "U.S. Wells", "Bitcoin SV", "Johnson and Johnson", "Disney", "Royal Carribean", "Carnival", "MGM Resort", "Heat Biologics", "Tonix Pharmaceutical", "Dow Jones", "Tesla", "Google"  };
+        String[] shares = new String[] { "Jp Morgan Chase $155.12", "Walmart $140.37" , "Gamestop  $159.40 ","Amc Entertainment $9.28 ","Shell $38.83 " ,"Google $2,299 ", "Twitter  $54.22", "Samsung $82,600", "Lenovo $27.20 ", "Intel $56.65 ", "Bitcoin $54,577.10 ", "Litecoin $306.37 ", "SunPower $22.72 ", "American Airlines $21.16 ", "Dave and Buster $45.98 ", "Hecla Mining $6.28 ", "Tilray $16.34 ", "Dogecoin $0.55", "Boeing $231.47 ", "Nikola $10.80 ", "Facebook $316.47 ", "British Petroleum $25.94 ", "Bank Of America $40.92 ", "Bitcoin Cash $977.11 ", "Moderna $172.30 ", "Pfizer $39.85", "United Airlines $52.20 ", "SouthWest Airlines $60.25 ", "Shell $38.76", "U.S. Wells $0.79", "Bitcoin SV $336.68 ", "Johnson and Johnson $167.13 ", "Disney $183.73 ", "Royal Carribean $84.20 ", "Carnival $26.53", "MGM Resort $40.34", "Heat Biologics $6.74", "Tonix Pharmaceutical $1.12", "Dow Jones $34,028.69", "Tesla $664.53"};
 
         System.out.println("Going trough the list: ");
 
