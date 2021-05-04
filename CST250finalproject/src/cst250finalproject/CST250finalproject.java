@@ -32,6 +32,10 @@ public class CST250finalproject {
         System.out.print("Email");
         email_name = user_input.next();
         
+        String Dateofbirth_name;
+        System.out.print("Email");
+        Dateofbirth_name = user_input.next();
+        
        
         
         
@@ -42,14 +46,17 @@ public class CST250finalproject {
         String Datewhenbought_name;
         Datewhenbought_name = Date_name;
         
+        String Dateofbirthnew;
+        Dateofbirthnew = Dateofbirth_name;
+
         String emailnew;
-        emailnew = email_name ;
-        
-        
-        
+        emailnew = email_name;
+
         System.out.println("Your personal information is been verfied, now you may move on towards the next step thank you!" + full_name);
         System.out.println("Date" + Datewhenbought_name);
+        System.out.println("Date of birth" + Dateofbirthnew);
         System.out.println("Email" + emailnew);
+        
         
         
         
