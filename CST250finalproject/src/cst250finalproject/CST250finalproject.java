@@ -4,6 +4,7 @@ package cst250finalproject;
 import java.util.Scanner;
 
 
+
 public class CST250finalproject {
 
     
@@ -11,7 +12,7 @@ public class CST250finalproject {
         String name;
         int numberShares;
         double buyPrice, sellPrice;
-        
+
         Scanner user_input = new Scanner(System.in);
         
         //The program starts by asking the user information for example their name, date, 
@@ -27,9 +28,11 @@ public class CST250finalproject {
         System.out.print("Date");
         Date_name = user_input.next();
         
-        String Datesold_name = null;
-        System.out.print("Date");
-        Date_name = user_input.next();
+        String email_name;
+        System.out.print("Email");
+        email_name = user_input.next();
+        
+       
         
         
         
@@ -37,12 +40,16 @@ public class CST250finalproject {
         full_name = first_name + "" + last_name;
         
         String Datewhenbought_name;
-        Datewhenbought_name = Date_name + Datesold_name;
+        Datewhenbought_name = Date_name;
+        
+        String emailnew;
+        emailnew = email_name ;
         
         
         
-        System.out.println("Your name is verified, now you can move on towards the next step thank you!");
-        System.out.println("");
+        System.out.println("Your personal information is been verfied, now you may move on towards the next step thank you!" + full_name);
+        System.out.println("Date" + Datewhenbought_name);
+        System.out.println("Email" + emailnew);
         
         
         
@@ -56,7 +63,7 @@ public class CST250finalproject {
         
         
         // This step is an list of stocks from which to chose and, are performing well in the stock market
-        String[] shares = new String[] { "Jp Morgan Chase", "Walmart" , "Gamestop","Amc Entertainment","Shell" ,"Google", "Twitter", "Samsung", "Lenovo", "Intel", "Bitcoin", "Litecoin", "SunPower", "American Airlines", "Dave and Buster", "Hecla Mining", "Tilray", "Dogecoin", "Boeing", "Nikola", "Facebook", "British Petroleum", "Bank Of America"  };
+        String[] shares = new String[] { "Jp Morgan Chase", "Walmart" , "Gamestop","Amc Entertainment","Shell" ,"Google", "Twitter", "Samsung", "Lenovo", "Intel", "Bitcoin", "Litecoin", "SunPower", "American Airlines", "Dave and Buster", "Hecla Mining", "Tilray", "Dogecoin", "Boeing", "Nikola", "Facebook", "British Petroleum", "Bank Of America", "Bitcoin Cash", "Moderna", "Pfizer", "United Airlines", "SouthWest Airlines", "Shell", "U.S. Wells", "Bitcoin SV", "Johnson and Johnson", "Disney", "Royal Carribean", "Carnival", "MGM Resort", "Heat Biologics", "Tonix Pharmaceutical", "Dow Jones", "Tesla", "Google"  };
 
         System.out.println("Going trough the list: ");
 
@@ -75,7 +82,8 @@ public class CST250finalproject {
             System.out.print("Sale price?");
             sellPrice = input.nextDouble();
         }
-        
+      
+
         
        
             
